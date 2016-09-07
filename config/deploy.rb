@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 
 set :application, 'e-commerce'
-set :repo_url, 'git@github.com:right-solutions/orangeelectric.ae.git'
+set :repo_url, 'git@github.com:right-solutions/spree.git'
 
 set :format, :pretty
 
