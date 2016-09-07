@@ -17,7 +17,7 @@ pid "/u01/apps/rs/spree-demo/current/tmp/pids/unicorn.pid"
 
 # Set the path of the log files inside the log folder of the testapp
 stderr_path "/u01/apps/rs/spree-demo/current/log/unicorn.stderr.log"
-stdout_path "/u01/apps/rs/apree-demo/current/log/unicorn.stdout.log"
+stdout_path "/u01/apps/rs/spree-demo/current/log/unicorn.stdout.log"
 
 before_fork do |server, worker|
 # This option works in together with preload_app true setting
